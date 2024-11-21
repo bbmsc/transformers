@@ -1,0 +1,116 @@
+    1  Python3 --version
+    2  python3 --version
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  apt install python3-pip python3-venv -y
+    6  sudo apt install python3-pip python3-venv -y
+    7  cd
+    8  ln -s /mnt/c/Users/andre/Documents/GitHub/iTransformer iTransformer
+    9  python3 -m venv bbmsc
+   10  echo 'source ~/bbmsc/bin/activate' >> ~/.bashrc
+   11  cat .bashrc
+   12  source ~/.bashrc
+   13  cd iTransformer
+   14  pip install -r requirements.txt
+   15  pip list
+   16  pip install iTransformer
+   17  exit
+   18  pwd
+   19  ls
+   20  ls iTransformer
+   21  history
+   22  cd iTransformer
+   23  pip uninstall iTransformer
+   24  history
+   25  pip list
+   26  pip install -r requirements.txt
+   27  curl -LsSf https://astral.sh/uv/install.sh | sh && source ~/.bashrc
+   28  uv pip install -r requirements.txt
+   29  deactivate
+   30  vi .bashrc
+   31  vi ~/.bashrc
+   32  history
+   33  uv venv && source .venv/bin/activate
+   34  curl -LsSf https://astral.sh/uv/install.sh | sh && source ~/.bashrc
+   35  vi ~/.bashrc
+   36  source ~/.bashrc
+   37  echo $PATH
+   38  uv
+   39  uv venv && source .venv/bin/activate
+   40  uv pip install -r requirements.txt
+   41  bash ./scripts/multivariate_forecasting/Traffic/iTransformer.sh
+   42  vi ./scripts/multivariate_forecasting/Traffic/iTransformer.sh
+   43  exit
+   44  history
+   45  cd iTransformer
+   46  source .venv/bin/activate
+   47  bash ./scripts/multivariate_forecasting/Traffic/iTransformer.sh
+   48  echo $CUDA_VISIBLE_DEVICES
+   49  model_name=iTransformer
+   50  python -u run.py   --is_training 1   --root_path ./dataset/traffic/   --data_path traffic.csv   --model_id traffic_96_96   --model $model_name   --data custom   --features M   --seq_len 96   --pred_len 96   --e_layers 4   --enc_in 862   --dec_in 862   --c_out 862   --des 'Exp'   --d_model 512  --d_ff 512   --batch_size 16   --learning_rate 0.001   --itr 1
+   51  ls ./dataset/traffic
+   52  echo $model_name
+   53  python -u run.py   --is_training 1   --root_path ./dataset/traffic/   --data_path traffic.csv   --model_id traffic_96_96   --model $model_name   --data custom   --features M   --seq_len 96   --pred_len 96   --e_layers 4   --enc_in 862   --dec_in 862   --c_out 862   --des 'Exp'   --d_model 512  --d_ff 512   --batch_size 16   --learning_rate 0.001   --itr 1
+   54  python -c 'import torch; print(torch.cuda.is_available())'
+   55  python
+   56  python run.py --is_training 1 --root_path ./dataset/traffic/ --data_path traffic.csv --model_id traffic_96_96 --model iTransformer  --data custom --features M --seq_len 96 --pred_len 96 --e_layers 4 --enc_in 862 --dec_in 862 --c_out 862 --des 'Exp' --d_model 512 --d_ff 512 --batch_size 16 --learning_rate "0.001" --itr 1
+   57  python -m pdb run.py --is_training 1 --root_path ./dataset/traffic/ --data_path traffic.csv --model_id traffic_96_96 --model iTransformer  --data custom --features M --seq_len 96 --pred_len 96 --e_layers 4 --enc_in 862 --dec_in 862 --c_out 862 --des 'Exp' --d_model 512 --d_ff 512 --batch_size 16 --learning_rate "0.001" --itr 1
+   58  dmesg
+   59  nvidia -smi
+   60  python run.py --is_training 1 --root_path ./dataset/traffic/ --data_path traffic.csv --model_id traffic_96_96 --model iTransformer  --data custom --features M --seq_len 96 --pred_len 96 --e_layers 4 --enc_in 862 --dec_in 862 --c_out 862 --des 'Exp' --d_model 512 --d_ff 512 --batch_size 16 --learning_rate "0.001" --itr 1
+   61  history
+   62  cd ~
+   63  ls
+   64  ln -s /mnt/c/Users/andre/Documents/GitHub/transformers/ transformers
+   65  cd transformers
+   66  history
+   67  exit
+   68  ls
+   69  cd transformers
+   70  history
+   71  uv venv && source .venv/bin/activate
+   72  uv pip install transformers datasets evaluate accelerate
+   73  python
+   74  uv pip install sklearn
+   75  uv pip install scikit-learn
+   76  python
+   77  uv pip install ipywidgets
+   78  ls
+   79  python
+   80  mv text_classification_doc_from_hugging_face.py text_classification_doc_from_hugging_face.ipynb
+   81  ls
+   82  jupyter nbconvert --execute text_classification_doc_from_hugging_face.ipynb 
+   83  sudo apt install jupyter-core
+   84  jupyter nbconvert --execute text_classification_doc_from_hugging_face.ipynb 
+   85  jupyter --execute text_classification_doc_from_hugging_face.ipynb 
+   86  mv text_classification_doc_from_hugging_face.ipynb text_classification_doc_from_hugging_face.py
+   87  python -m pdb text_classification_doc_from_hugging_face.py 
+   88  huggingface-cli login
+   89  python
+   90  text = "This was a masterpiece. Not completely faithful to the books, but enthralling from beginning to end. Might be my favorite of the three."
+   91  from transformers import pipeline
+   92  classifier = pipeline("sentiment-analysis", model="bbmsc/my_awesome_model")
+   93  classifier(text)
+   94  from transformers import AutoTokenizer
+   95  tokenizer = AutoTokenizer.from_pretrained("bbmsc/my_awesome_model")
+   96  inputs = tokenizer(text, return_tensors="pt")
+   97  from transformers import AutoModelForSequenceClassification
+   98  model = AutoModelForSequenceClassification.from_pretrained("bbmsc/my_awesome_model")
+   99  with torch.no_grad():
+  100  predicted_class_id = logits.argmax().item()
+  101  model.config.id2label[predicted_class_id]
+  102  python
+  103  history
+  104  uv pip install jupyter
+  105  history
+  106  sudo apt install firefox
+  107  firefox --version
+  108  snap install firexox
+  109  snap install firefox
+  110  systemctl status snapd.service
+  111  systemctl start snapd
+  112  jupyter notebook --generate-config
+  113  vi ~/.jupyter/jupyter_notebook_config.py 
+  114  jupyter notebook
+  115  history >useful commands
+  116  history >useful
