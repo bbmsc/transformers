@@ -1,7 +1,10 @@
 # https://huggingface.co/docs/transformers/tasks/sequence_classification
 
 #from huggingface_hub import notebook_login
-#notebook_login("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")
+#notebook_login()
+
+from huggingface_hub import login
+login()
 
 from datasets import load_dataset
 
@@ -11,7 +14,8 @@ imdb = load_dataset("imdb")
 
 from transformers import AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+#tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
+tokenizer = AutoTokenizer.from_pretrained("./distilbert-base-uncased")
 def preprocess_function(examples):
     return tokenizer(examples["text"], truncation=True)
 
@@ -39,11 +43,11 @@ label2id = {"NEGATIVE": 0, "POSITIVE": 1}
 from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer
 
 model = AutoModelForSequenceClassification.from_pretrained(
-    "distilbert/distilbert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id
+    "./distilbert-base-uncased", num_labels=2, id2label=id2label, label2id=label2id
 )
 
 training_args = TrainingArguments(
-    output_dir="my_awesome_model",
+    output_dir="my_distilbert",
     learning_rate=2e-5,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
@@ -71,17 +75,17 @@ text = "This was a masterpiece. Not completely faithful to the books, but enthra
 
 from transformers import pipeline
 
-classifier = pipeline("sentiment-analysis", model="bbmsc/my_awesome_model")
+classifier = pipeline("sentiment-analysis", model="./my_distilbert")
 classifier(text)
 
 from transformers import AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained("bbmsc/my_awesome_model")
+tokenizer = AutoTokenizer.from_pretrained("./my_distilbert")
 inputs = tokenizer(text, return_tensors="pt")
 
 from transformers import AutoModelForSequenceClassification
 
-model = AutoModelForSequenceClassification.from_pretrained("bbmsc/my_awesome_model")
+model = AutoModelForSequenceClassification.from_pretrained("./my_distilbert")
 with torch.no_grad():
     logits = model(**inputs).logits
 

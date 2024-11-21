@@ -1,0 +1,43 @@
+    1  pwd
+    2  ls
+    3  uv venv
+    4  sudo snap install astral-uv
+    5  cd ~
+    6  history
+    7  ln -s /mnt/c/Users/andre/Documents/GitHub/transformers/ transformers
+    8  cd transformers
+    9  uv venv && source .venv/bin/activate
+   10  uv pip install transformers datasets evaluate accelerate scikit-learn ipywidgets jupyter
+   11  jupyter text_classification_doc_from_hugging_face.ipynb 
+   12  run jupyter file friom command line
+   13  jupyter nbconvert --execute text_classification_doc_from_hugging_face.ipynb 
+   14  jupyter
+   15  python
+   16  jupiter notebook
+   17  jupyter notebook
+   18  firefox --version
+   19  google-chrome --version
+   20  sudo apt install firefox
+   21  firefox --version
+   22  systemctl status snapd.service
+   23  jupyter notebook --generate-config
+   24  vi ~/.jupyter/jupyter_notebook_config.py 
+   25  jupyter notebook
+   26  python
+   27  sudo apt-get install git-lfs
+   28  git lfs install
+   29  git clone https://huggingface.co/distilbert/distilbert-base-uncased
+   30  python
+   31  text = "This was a masterpiece. Not completely faithful to the books, but enthralling from beginning to end. Might be my favorite of the three."
+   32  from transformers import pipeline
+   33  classifier = pipeline("sentiment-analysis", model="./my_distilbert")
+   34  classifier(text)
+   35  from transformers import AutoTokenizer
+   36  tokenizer = AutoTokenizer.from_pretrained("./my_distilbert")
+   37  inputs = tokenizer(text, return_tensors="pt")
+   38  from transformers import AutoModelForSequenceClassification
+   39  model = AutoModelForSequenceClassification.from_pretrained("./my_distilbert")
+   40  with torch.no_grad():
+   41  predicted_class_id = logits.argmax().item()
+   42  model.config.id2label[predicted_class_id]
+   43  history >useful2
