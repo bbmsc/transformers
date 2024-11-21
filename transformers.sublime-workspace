@@ -7,6 +7,99 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 23053,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "text_classification_doc_from_hugging_face.py",
+			"settings":
+			{
+				"buffer_size": 2594,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAEoAAAAAAAAASwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHUAAAAAAAAAdQAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAACBA"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAHYAAAAAAAAAdwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"",
+					null,
+					"AwAAACwJAAAAAAAAMQkAAAAAAAAIAAAAc3RldmhsaXVoCAAAAAAAAG0IAAAAAAAACAAAAHN0ZXZobGl15wcAAAAAAADsBwAAAAAAAAgAAABzdGV2aGxpdQ",
+					"AQAAAAAAAAABAAAA5wcAAAAAAADvBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAIYAAAAAAAAAiAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhgAAAAAAAACGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"paste",
+					null,
+					"AQAAAIcAAAAAAAAArAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhwAAAAAAAACHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAD3CQAAIyBodHRwczovL2h1Z2dpbmdmYWNlLmNvL2RvY3MvdHJhbnNmb3JtZXJzL3Rhc2tzL3NlcXVlbmNlX2NsYXNzaWZpY2F0aW9uCgojZnJvbSBodWdnaW5nZmFjZV9odWIgaW1wb3J0IG5vdGVib29rX2xvZ2luCiNub3RlYm9va19sb2dpbigiaGZfZXlmcG9vV1h1SXhmb2dqclNMcXRPd2RyamZVV0VPZXFKYiIpCgpmcm9tIGRhdGFzZXRzIGltcG9ydCBsb2FkX2RhdGFzZXQKCmltZGIgPSBsb2FkX2RhdGFzZXQoImltZGIiKQoKI2ltZGJbInRlc3QiXVswXQoKZnJvbSB0cmFuc2Zvcm1lcnMgaW1wb3J0IEF1dG9Ub2tlbml6ZXIKCnRva2VuaXplciA9IEF1dG9Ub2tlbml6ZXIuZnJvbV9wcmV0cmFpbmVkKCJkaXN0aWxiZXJ0L2Rpc3RpbGJlcnQtYmFzZS11bmNhc2VkIikKZGVmIHByZXByb2Nlc3NfZnVuY3Rpb24oZXhhbXBsZXMpOgogICAgcmV0dXJuIHRva2VuaXplcihleGFtcGxlc1sidGV4dCJdLCB0cnVuY2F0aW9uPVRydWUpCgp0b2tlbml6ZWRfaW1kYiA9IGltZGIubWFwKHByZXByb2Nlc3NfZnVuY3Rpb24sIGJhdGNoZWQ9VHJ1ZSkKCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBEYXRhQ29sbGF0b3JXaXRoUGFkZGluZwoKZGF0YV9jb2xsYXRvciA9IERhdGFDb2xsYXRvcldpdGhQYWRkaW5nKHRva2VuaXplcj10b2tlbml6ZXIpCgppbXBvcnQgZXZhbHVhdGUKCmFjY3VyYWN5ID0gZXZhbHVhdGUubG9hZCgiYWNjdXJhY3kiKQoKaW1wb3J0IG51bXB5IGFzIG5wCgoKZGVmIGNvbXB1dGVfbWV0cmljcyhldmFsX3ByZWQpOgogICAgcHJlZGljdGlvbnMsIGxhYmVscyA9IGV2YWxfcHJlZAogICAgcHJlZGljdGlvbnMgPSBucC5hcmdtYXgocHJlZGljdGlvbnMsIGF4aXM9MSkKICAgIHJldHVybiBhY2N1cmFjeS5jb21wdXRlKHByZWRpY3Rpb25zPXByZWRpY3Rpb25zLCByZWZlcmVuY2VzPWxhYmVscykKCmlkMmxhYmVsID0gezA6ICJORUdBVElWRSIsIDE6ICJQT1NJVElWRSJ9CmxhYmVsMmlkID0geyJORUdBVElWRSI6IDAsICJQT1NJVElWRSI6IDF9Cgpmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQXV0b01vZGVsRm9yU2VxdWVuY2VDbGFzc2lmaWNhdGlvbiwgVHJhaW5pbmdBcmd1bWVudHMsIFRyYWluZXIKCm1vZGVsID0gQXV0b01vZGVsRm9yU2VxdWVuY2VDbGFzc2lmaWNhdGlvbi5mcm9tX3ByZXRyYWluZWQoCiAgICAiZGlzdGlsYmVydC9kaXN0aWxiZXJ0LWJhc2UtdW5jYXNlZCIsIG51bV9sYWJlbHM9MiwgaWQybGFiZWw9aWQybGFiZWwsIGxhYmVsMmlkPWxhYmVsMmlkCikKCnRyYWluaW5nX2FyZ3MgPSBUcmFpbmluZ0FyZ3VtZW50cygKICAgIG91dHB1dF9kaXI9Im15X2F3ZXNvbWVfbW9kZWwiLAogICAgbGVhcm5pbmdfcmF0ZT0yZS01LAogICAgcGVyX2RldmljZV90cmFpbl9iYXRjaF9zaXplPTE2LAogICAgcGVyX2RldmljZV9ldmFsX2JhdGNoX3NpemU9MTYsCiAgICBudW1fdHJhaW5fZXBvY2hzPTIsCiAgICB3ZWlnaHRfZGVjYXk9MC4wMSwKICAgIGV2YWxfc3RyYXRlZ3k9ImVwb2NoIiwKICAgIHNhdmVfc3RyYXRlZ3k9ImVwb2NoIiwKICAgIGxvYWRfYmVzdF9tb2RlbF9hdF9lbmQ9VHJ1ZSwKICAgIHB1c2hfdG9faHViPVRydWUsCikKCnRyYWluZXIgPSBUcmFpbmVyKAogICAgbW9kZWw9bW9kZWwsCiAgICBhcmdzPXRyYWluaW5nX2FyZ3MsCiAgICB0cmFpbl9kYXRhc2V0PXRva2VuaXplZF9pbWRiWyJ0cmFpbiJdLAogICAgZXZhbF9kYXRhc2V0PXRva2VuaXplZF9pbWRiWyJ0ZXN0Il0sCiAgICBwcm9jZXNzaW5nX2NsYXNzPXRva2VuaXplciwKICAgIGRhdGFfY29sbGF0b3I9ZGF0YV9jb2xsYXRvciwKICAgIGNvbXB1dGVfbWV0cmljcz1jb21wdXRlX21ldHJpY3MsCikKCnRyYWluZXIudHJhaW4oKQoKdGV4dCA9ICJUaGlzIHdhcyBhIG1hc3RlcnBpZWNlLiBOb3QgY29tcGxldGVseSBmYWl0aGZ1bCB0byB0aGUgYm9va3MsIGJ1dCBlbnRocmFsbGluZyBmcm9tIGJlZ2lubmluZyB0byBlbmQuIE1pZ2h0IGJlIG15IGZhdm9yaXRlIG9mIHRoZSB0aHJlZS4iCgpmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgcGlwZWxpbmUKCmNsYXNzaWZpZXIgPSBwaXBlbGluZSgic2VudGltZW50LWFuYWx5c2lzIiwgbW9kZWw9ImJibXNjL215X2F3ZXNvbWVfbW9kZWwiKQpjbGFzc2lmaWVyKHRleHQpCgpmcm9tIHRyYW5zZm9ybWVycyBpbXBvcnQgQXV0b1Rva2VuaXplcgoKdG9rZW5pemVyID0gQXV0b1Rva2VuaXplci5mcm9tX3ByZXRyYWluZWQoImJibXNjL215X2F3ZXNvbWVfbW9kZWwiKQppbnB1dHMgPSB0b2tlbml6ZXIodGV4dCwgcmV0dXJuX3RlbnNvcnM9InB0IikKCmZyb20gdHJhbnNmb3JtZXJzIGltcG9ydCBBdXRvTW9kZWxGb3JTZXF1ZW5jZUNsYXNzaWZpY2F0aW9uCgptb2RlbCA9IEF1dG9Nb2RlbEZvclNlcXVlbmNlQ2xhc3NpZmljYXRpb24uZnJvbV9wcmV0cmFpbmVkKCJiYm1zYy9teV9hd2Vzb21lX21vZGVsIikKd2l0aCB0b3JjaC5ub19ncmFkKCk6CiAgICBsb2dpdHMgPSBtb2RlbCgqKmlucHV0cykubG9naXRzCgpwcmVkaWN0ZWRfY2xhc3NfaWQgPSBsb2dpdHMuYXJnbWF4KCkuaXRlbSgpCm1vZGVsLmNvbmZpZy5pZDJsYWJlbFtwcmVkaWN0ZWRfY2xhc3NfaWRdCgAAAAAAAAAAIgoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdwAAAAAAAACuAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "useful",
+			"settings":
+			{
+				"buffer_size": 5688,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -44,6 +137,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/andre/Documents/GitHub/transformers/text_classification_doc_from_hugging_face.py",
 		"/C/Users/andre/Documents/GitHub/iTransformer/scripts/multivariate_forecasting/Traffic/iTransformer.sh",
 		"/C/Users/andre/Documents/GitHub/iTransformer/run.py",
 		"/C/Users/andre/Documents/GitHub/iTransformer/experiments/exp_long_term_forecasting.py",
@@ -170,8 +264,7 @@
 		"/C/Users/andre/Documents/MARCS/code/functions/Difficultyfunctions.R",
 		"/C/Users/andre/Documents/MARCS/code/functions/data-builds.R",
 		"/C/Users/andre/Documents/MARCS/code/functions/build-endpoints-df.R",
-		"/C/Users/andre/Documents/MARCS/code/functions/anchor.R",
-		"/C/Users/andre/Documents/MARCS Validation Code/CE-VAST Agreement/relative-to-gastroenterologist.qmd"
+		"/C/Users/andre/Documents/MARCS/code/functions/anchor.R"
 	],
 	"find":
 	{
@@ -190,6 +283,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"stevhliu",
+			"roberta",
+			"google-bert",
 			"data_path",
 			"root_path",
 			"Exp_Long_Term_Forec",
@@ -314,10 +410,7 @@
 			"geom_smooth(method=\"lm\", se=FALSE)",
 			"catterplot",
 			"ggplot",
-			"arrange",
-			"analysis-summ",
-			"name",
-			".db"
+			"arrange"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -325,6 +418,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"bbmsc",
 			"ampulla",
 			"arrange(`p.value`",
 			"arrange(desc(abs(Estimate))",
@@ -451,8 +545,7 @@
 			"formatted.exec.assoc.metrics",
 			"label.name",
 			"stratum=\"<pooled>\"",
-			"Arm",
-			"RandStat"
+			"Arm"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -467,6 +560,94 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21764,
+								21826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11730.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "text_classification_doc_from_hugging_face.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 80.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "useful",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -513,7 +694,7 @@
 	"project": "transformers.sublime-project",
 	"replace":
 	{
-		"height": 51.2
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -551,7 +732,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 240.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
